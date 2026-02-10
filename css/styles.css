@@ -564,42 +564,6 @@ strong {
 	margin-top: 12px;
 }
 
-/* --- Tech Pills --- */
-.tech-pills {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8px;
-}
-
-.tech-pill {
-	display: inline-flex;
-	align-items: center;
-	gap: 6px;
-	font-size: 0.82rem;
-	font-weight: 500;
-	padding: 7px 14px;
-	background: var(--bg);
-	color: var(--text);
-	border: 1px solid var(--border);
-	border-radius: var(--radius-xs);
-	transition: all var(--transition);
-}
-
-[data-theme="dark"] .tech-pill {
-	background: rgba(255, 255, 255, 0.05);
-}
-
-.tech-pill img {
-	width: 16px;
-	height: 16px;
-}
-
-.tech-pill:hover {
-	border-color: var(--accent);
-	color: var(--accent);
-	transform: translateY(-1px);
-}
-
 /* --- Open Source (inside tech bento) --- */
 .bento-oss {
 	display: flex;
