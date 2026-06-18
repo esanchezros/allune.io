@@ -71,9 +71,9 @@
 						and event-driven platforms.
 					</p>
 					<p>
-						My engineering style is grounded in <strong>Hexagonal Architecture</strong>,
-						<strong>Domain-Driven Design</strong>, <strong>TDD</strong>
-						and <strong>Clean Code</strong>, ensuring solutions are resilient,
+						My engineering style is grounded in <strong>Domain-Driven Design</strong>,
+						<strong>TDD</strong> and <strong>Clean Code</strong>,
+						ensuring solutions are resilient,
 						maintainable and aligned with business outcomes.
 					</p>
 				</div>
@@ -139,7 +139,7 @@
 					<h3>Technical Consulting</h3>
 					<p>
 						Architecture reviews, technology selection and strategic guidance.
-						Hexagonal Architecture, DDD, and cloud-native patterns.
+						Domain-Driven Design, event-driven and cloud-native patterns.
 					</p>
 					<div class="service-tags">
 						<span>Architecture Review</span>
@@ -183,7 +183,9 @@
 					<p>
 						Leading architecture and development of an Alternative Trading System
 						for secondary trading of private securities. Built the core matching engine,
-						integrated with FINRA, Apex Clearing, and Nasdaq's UMS.
+						integrated with FINRA, Apex Clearing, and Nasdaq's UMS. Also delivering
+						the back-office platform (positions, lot allocation, settlement) and
+						SPV and Pre-IPO work for primary offerings.
 					</p>
 				</div>
 				<div class="exp-card animate-on-scroll">
@@ -201,7 +203,7 @@
 					<p class="exp-role">Senior Software Engineer</p>
 					<p>
 						Redeveloped the Bookmarking Service handling 2,500 req/s with Java 17
-						and Spring Boot. Microservices on Kubernetes with Kafka and Cassandra.
+						and Spring Boot. Microservices on Kubernetes with Kafka.
 					</p>
 				</div>
 				<div class="exp-card animate-on-scroll">
@@ -251,7 +253,6 @@
 					<span class="bento-label">Backend</span>
 					<div class="cv-tech-badges">
 						<span class="cv-tech-badge"><img src="icons/openjdk.svg" alt=""> Java</span>
-						<span class="cv-tech-badge"><img src="icons/kotlin.svg" alt=""> Kotlin</span>
 						<span class="cv-tech-badge"><img src="icons/springboot.svg" alt=""> Spring Boot</span>
 						<span class="cv-tech-badge"><img src="icons/spring.svg" alt=""> Spring Cloud</span>
 						<span class="cv-tech-badge"><img src="icons/spring.svg" alt=""> Spring Data</span>
@@ -277,16 +278,15 @@
 						<span class="cv-tech-badge"><img src="icons/postgresql.svg" alt=""> PostgreSQL</span>
 						<span class="cv-tech-badge"><img src="icons/mysql.svg" alt=""> MySQL</span>
 						<span class="cv-tech-badge">DynamoDB</span>
-						<span class="cv-tech-badge"><img src="icons/apachecassandra.svg" alt=""> Cassandra</span>
 						<span class="cv-tech-badge"><img src="icons/redis.svg" alt=""> Redis</span>
 						<span class="cv-tech-badge"><img src="icons/apachekafka.svg" alt=""> Kafka</span>
+						<span class="cv-tech-badge">NATS JetStream</span>
 						<span class="cv-tech-badge"><img src="icons/rabbitmq.svg" alt=""> RabbitMQ</span>
 					</div>
 				</div>
 				<div class="bento-card bento-wide animate-on-scroll">
 					<span class="bento-label">Practices</span>
 					<div class="cv-tech-badges">
-						<span class="cv-tech-badge">Hexagonal Architecture</span>
 						<span class="cv-tech-badge">Domain-Driven Design</span>
 						<span class="cv-tech-badge">TDD / BDD</span>
 						<span class="cv-tech-badge">CQRS</span>
@@ -296,7 +296,7 @@
 						<span class="cv-tech-badge">Pair Programming</span>
 					</div>
 				</div>
-				<!-- Open Source card integrated into tech bento -->
+				<!-- Open Source cards integrated into tech bento -->
 				<div class="bento-card bento-oss animate-on-scroll">
 					<span class="bento-label">Open Source</span>
 					<h3>QuickFIX/J Spring Boot Starter</h3>
@@ -305,6 +305,30 @@
 						Used by trading platforms and financial institutions worldwide.
 					</p>
 					<a href="https://github.com/esanchezros/quickfixj-spring-boot-starter" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
+						GitHub
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+					</a>
+				</div>
+				<div class="bento-card bento-oss animate-on-scroll">
+					<span class="bento-label">Open Source</span>
+					<h3>AssertJ-QuickFIX/J</h3>
+					<p>
+						Fluent, AssertJ-style assertions for QuickFIX/J messages &mdash;
+						readable, chainable tests with data-dictionary-aware field checks.
+					</p>
+					<a href="https://github.com/esanchezros/assertj-quickfixj" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
+						GitHub
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+					</a>
+				</div>
+				<div class="bento-card bento-oss animate-on-scroll">
+					<span class="bento-label">Open Source</span>
+					<h3>FixMock</h3>
+					<p>
+						A WireMock-inspired mocking library for FIX sessions with QuickFIX/J.
+						Stub responses and verify messages with a fluent Java DSL.
+					</p>
+					<a href="https://github.com/esanchezros/fix-mock" class="btn btn-outline btn-sm" target="_blank" rel="noopener">
 						GitHub
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
 					</a>
