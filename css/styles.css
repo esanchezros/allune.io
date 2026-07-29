@@ -904,6 +904,22 @@ strong {
 	margin-bottom: 12px;
 }
 
+.cv-header .cv-muted,
+.cv-entry-body .cv-muted {
+	color: var(--text-muted);
+}
+
+.cv-header .cv-muted {
+	font-size: 0.95rem;
+}
+
+.cv-entry-body .cv-muted {
+	font-size: 0.82rem;
+	font-weight: 500;
+	margin-top: -8px;
+	margin-bottom: 12px;
+}
+
 .cv-entry-body p {
 	font-size: 0.9rem;
 	color: var(--text-secondary);
